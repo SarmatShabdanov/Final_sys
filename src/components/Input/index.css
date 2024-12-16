@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.my-input {
+    min-width: 300px;
+    height: 40px;
+    border-radius:8px ;
+    border: solid;
+    border-color: #E4E4E7;
+    font-family: Inter;
+    color: #006FEE;
+    
+}
+.my-input:hover{
+    border-color:#006FEE;
+}
+.my-input::placeholder{
+    font-family: Inter;
+}
+.my-input:focus{
+    border-color:#006FEE;
+}
+.my-input--True{
+    border-color: #FF4D4F;
+    color: #FF4D4F;
+}
+.my-input--True:hover{
+    border-color: #c97778;
+    color: #c97778;
+}
+.my-input--True:focus{
+    border-color: #c97778;
+    color: #c97778;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.my-typography{
+    width: 630px;
+    font-family: Inter;
+    
+}
+.my-typography--sm{
+    font-size: 12px;
+}
+.my-typography--md{
+    font-size: 14px;
+}
+.my-typography--lg{
+    font-size: 16px;
+}

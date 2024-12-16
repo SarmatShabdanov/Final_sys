@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.my-button{
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 10px;
+    font-family: "Inter";
+    background: #006FEE;
+    transition: 400ms;
+    border: none;
+    padding: 10px;
+    max-width: fit-content;
+    
+}
+.my-button:hover{
+    background: #024694;
+}
+
+.my-button--bordered{
+    background:none;
+    border: 2px solid #006FEE;
+    color: #006FEE;
+}
+
+.my-button--bordered:hover{
+    background: #006FEE;
+    color: white;
+}
+
+.my-button--primary{
+    color: white;
+}
+
+.my-button--lg{
+    height: 48px;
+    font-size: 16px;
+    min-width: 150px;
+}
+
+.my-button--md{
+    height: 40px;
+    font-size: 14px;
+    min-width: 120px;
+}
+
+.my-button--sm{
+    padding: 5px;
+    height: 32px;
+    font-size: 12px;
+    min-width: 100px;
+}
+
+
