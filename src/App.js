@@ -68,7 +68,8 @@ function App() {
       'Loading...'
       :
       state?.data?.filter(item => (
-        item.name.toLowerCase().includes(inputValue.toLowerCase())
+        item.name.toLowerCase().includes(inputValue.toLowerCase()) ||
+        item.symbol.toLowerCase().includes(inputValue.toLowerCase())
       )).map(item => (
         <Accordion title = {item.name}>
           
